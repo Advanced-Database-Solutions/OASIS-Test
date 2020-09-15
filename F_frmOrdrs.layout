@@ -1,0 +1,1702 @@
+Version =21
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    NavigationButtons = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    BorderStyle =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =15960
+    DatasheetFontHeight =11
+    ItemSuffix =20
+    Left =1860
+    Top =1080
+    Right =17820
+    Bottom =10035
+    DatasheetGridlinesColor =14806254
+    RecordSource ="qryOrdr_slct"
+    Caption ="Orders"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            BorderThemeColorIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BorderColor =16777215
+            GridlineColor =16777215
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderColor =16777215
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin FormHeader
+            Height =1635
+            BackColor =15527148
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin Rectangle
+                    BackStyle =1
+                    OverlapFlags =93
+                    Left =300
+                    Top =180
+                    Width =2280
+                    Height =1260
+                    BorderColor =10921638
+                    Name ="Box237"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =300
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =2580
+                    LayoutCachedHeight =1440
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =2760
+                    Top =900
+                    Width =4005
+                    Height =555
+                    FontSize =20
+                    BorderColor =8355711
+                    Name ="Label104"
+                    Caption ="VIEW ORDER DETAILS"
+                    FontName ="Franklin Gothic Demi"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2760
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =6765
+                    LayoutCachedHeight =1455
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =13920
+                    Top =180
+                    Width =1860
+                    ForeColor =15527148
+                    Name ="cmdCls"
+                    Caption ="CLOSE"
+                    FontName ="Microsoft Sans Serif"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =13920
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =15780
+                    LayoutCachedHeight =540
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =0
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =12566463
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =75.0
+                    ThemeFontIndex =-1
+                    HoverColor =0
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =0
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =15527148
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =15527148
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                End
+                Begin Line
+                    BorderWidth =2
+                    OverlapFlags =85
+                    Top =1620
+                    Width =15960
+                    Name ="Line103"
+                    GridlineColor =10921638
+                    LayoutCachedTop =1620
+                    LayoutCachedWidth =15960
+                    LayoutCachedHeight =1620
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =1
+                    Left =720
+                    Top =540
+                    Width =1380
+                    Height =480
+                    FontSize =16
+                    TopMargin =35
+                    BorderColor =8355711
+                    ForeColor =4276545
+                    Name ="Label1"
+                    Caption ="<LOGO>"
+                    FontName ="Microsoft Sans Serif"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =720
+                    LayoutCachedTop =540
+                    LayoutCachedWidth =2100
+                    LayoutCachedHeight =1020
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =13800
+                    Top =1080
+                    Width =600
+                    Height =315
+                    ColumnOrder =0
+                    TabIndex =1
+                    BackColor =62207
+                    BorderColor =10921638
+                    Name ="txtOrdrCntctIDfk"
+                    ControlSource ="OrdrCntctIDfk"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =13800
+                    LayoutCachedTop =1080
+                    LayoutCachedWidth =14400
+                    LayoutCachedHeight =1395
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =13080
+                    Top =1080
+                    Width =600
+                    Height =315
+                    ColumnOrder =1
+                    TabIndex =2
+                    BackColor =62207
+                    BorderColor =10921638
+                    Name ="txtSpplrIDfk"
+                    ControlSource ="SpplrIDfk"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =13080
+                    LayoutCachedTop =1080
+                    LayoutCachedWidth =13680
+                    LayoutCachedHeight =1395
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =7020
+            Name ="Detail"
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin OptionGroup
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    BackStyle =1
+                    OverlapFlags =93
+                    Left =840
+                    Top =420
+                    Width =7085
+                    Height =420
+                    TabIndex =17
+                    BackColor =5855577
+                    BorderColor =10921638
+                    Name ="optGrpOrdrs"
+                    DefaultValue ="1"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =7925
+                    LayoutCachedHeight =840
+                    BackThemeColorIndex =-1
+                    Begin
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =2760
+                            Top =539
+                            OptionValue =2
+                            BorderColor =10921638
+                            Name ="Option22"
+                            GridlineColor =10921638
+
+                            LayoutCachedLeft =2760
+                            LayoutCachedTop =539
+                            LayoutCachedWidth =3020
+                            LayoutCachedHeight =779
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =2990
+                                    Top =480
+                                    Width =1155
+                                    Height =315
+                                    BorderColor =8355711
+                                    ForeColor =14211288
+                                    Name ="Label24"
+                                    Caption ="Last 60 days"
+                                    GridlineColor =10921638
+                                    LayoutCachedLeft =2990
+                                    LayoutCachedTop =480
+                                    LayoutCachedWidth =4145
+                                    LayoutCachedHeight =795
+                                    ForeThemeColorIndex =-1
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =4380
+                            Top =539
+                            OptionValue =3
+                            BorderColor =10921638
+                            Name ="Option25"
+                            GridlineColor =10921638
+
+                            LayoutCachedLeft =4380
+                            LayoutCachedTop =539
+                            LayoutCachedWidth =4640
+                            LayoutCachedHeight =779
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =4610
+                                    Top =480
+                                    Width =1005
+                                    Height =315
+                                    BorderColor =8355711
+                                    ForeColor =14211288
+                                    Name ="Label26"
+                                    Caption ="All Orders"
+                                    GridlineColor =10921638
+                                    LayoutCachedLeft =4610
+                                    LayoutCachedTop =480
+                                    LayoutCachedWidth =5615
+                                    LayoutCachedHeight =795
+                                    ForeThemeColorIndex =-1
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =1020
+                            Top =555
+                            Height =225
+                            OptionValue =1
+                            BorderColor =10921638
+                            Name ="Option20"
+                            GridlineColor =10921638
+
+                            LayoutCachedLeft =1020
+                            LayoutCachedTop =555
+                            LayoutCachedWidth =1280
+                            LayoutCachedHeight =780
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =1250
+                                    Top =480
+                                    Width =1260
+                                    Height =315
+                                    BorderColor =8355711
+                                    ForeColor =14211288
+                                    Name ="Label21"
+                                    Caption ="Open Orders"
+                                    GridlineColor =10921638
+                                    LayoutCachedLeft =1250
+                                    LayoutCachedTop =480
+                                    LayoutCachedWidth =2510
+                                    LayoutCachedHeight =795
+                                    ForeThemeColorIndex =-1
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OverlapFlags =95
+                    Left =840
+                    Top =840
+                    Width =7080
+                    Height =360
+                    BackColor =14211288
+                    BorderColor =10921638
+                    Name ="Box3"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =7920
+                    LayoutCachedHeight =1200
+                    BackThemeColorIndex =-1
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =1
+                    Left =8160
+                    Top =120
+                    Width =1710
+                    Height =405
+                    FontSize =14
+                    BorderColor =8355711
+                    Name ="Label10"
+                    Caption ="Order Details"
+                    FontName ="Franklin Gothic Demi"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =8160
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =9870
+                    LayoutCachedHeight =525
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    OverlapFlags =223
+                    Left =8160
+                    Top =420
+                    Width =6720
+                    Height =6000
+                    BorderColor =10921638
+                    Name ="Box142"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =8160
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =14880
+                    LayoutCachedHeight =6420
+                End
+                Begin Label
+                    OverlapFlags =223
+                    Left =8280
+                    Top =2280
+                    Width =1725
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label9"
+                    Caption ="Order Items"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =2280
+                    LayoutCachedWidth =10005
+                    LayoutCachedHeight =2595
+                    ForeTint =100.0
+                End
+                Begin Subform
+                    Enabled = NotDefault
+                    OverlapFlags =215
+                    Left =8280
+                    Top =2520
+                    Width =6480
+                    Height =3780
+                    TabIndex =16
+                    BorderColor =12566463
+                    Name ="sf_Dtls"
+                    SourceObject ="Form.sbfrmOrdrDtls"
+                    Tag ="Lckd"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =2520
+                    LayoutCachedWidth =14760
+                    LayoutCachedHeight =6300
+                    BorderShade =75.0
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OverlapFlags =93
+                    Left =840
+                    Top =6000
+                    Width =7086
+                    Height =420
+                    BackColor =5855577
+                    BorderColor =10921638
+                    Name ="Box49"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =6000
+                    LayoutCachedWidth =7926
+                    LayoutCachedHeight =6420
+                    BackThemeColorIndex =-1
+                End
+                Begin ListBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    ColumnCount =6
+                    Left =840
+                    Top =1200
+                    Width =7086
+                    Height =4380
+                    BorderColor =10921638
+                    Name ="lstSpplrOrdr"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qryOrdrs_Ordrs_slct"
+                    ColumnWidths ="1440;2160;1152;1152;1152"
+                    OnDblClick ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =1200
+                    LayoutCachedWidth =7926
+                    LayoutCachedHeight =5580
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OverlapFlags =95
+                    Left =840
+                    Top =5580
+                    Width =7080
+                    Height =420
+                    BackColor =14211288
+                    BorderColor =10921638
+                    Name ="Box31"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =5580
+                    LayoutCachedWidth =7920
+                    LayoutCachedHeight =6000
+                    BackThemeColorIndex =-1
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    OverlapFlags =223
+                    IMESentenceMode =3
+                    Left =3840
+                    Top =5640
+                    Width =2520
+                    Height =315
+                    TabIndex =18
+                    BorderColor =10921638
+                    Name ="txtFltrBy"
+                    DefaultValue ="\"\""
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3840
+                    LayoutCachedTop =5640
+                    LayoutCachedWidth =6360
+                    LayoutCachedHeight =5955
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Enabled = NotDefault
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =3840
+                    Top =5640
+                    Width =1080
+                    Height =315
+                    TabIndex =3
+                    BorderColor =10921638
+                    Name ="txtStrtDt"
+                    Format ="Short Date"
+                    ValidationRule ="Is Not Null And <=[txtEndDt]"
+                    ValidationText ="Please enter a valid date range"
+                    BeforeUpdate ="[Event Procedure]"
+                    DefaultValue ="Date()-7"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3840
+                    LayoutCachedTop =5640
+                    LayoutCachedWidth =4920
+                    LayoutCachedHeight =5955
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Enabled = NotDefault
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =5280
+                    Top =5640
+                    Width =1080
+                    Height =315
+                    TabIndex =4
+                    BorderColor =10921638
+                    Name ="txtEndDt"
+                    Format ="Short Date"
+                    ValidationRule ="Is Not Null And >=[txtStrtDt]"
+                    ValidationText ="Please enter a valid date range"
+                    BeforeUpdate ="[Event Procedure]"
+                    DefaultValue ="Date()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =5280
+                    LayoutCachedTop =5640
+                    LayoutCachedWidth =6360
+                    LayoutCachedHeight =5955
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =247
+                            Left =4980
+                            Top =5640
+                            Width =240
+                            Height =240
+                            BorderColor =8355711
+                            Name ="lblTo"
+                            Caption ="to"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =4980
+                            LayoutCachedTop =5640
+                            LayoutCachedWidth =5220
+                            LayoutCachedHeight =5880
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    RowSourceTypeInt =1
+                    OverlapFlags =223
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =2040
+                    Top =5640
+                    Width =1740
+                    Height =315
+                    TabIndex =2
+                    BorderColor =10921638
+                    Name ="cboFltrOrdr"
+                    RowSourceType ="Value List"
+                    RowSource ="1;Order Number;2;Supplier;3;Order Date"
+                    ColumnWidths ="0"
+                    AfterUpdate ="[Event Procedure]"
+                    DefaultValue ="0"
+                    GridlineColor =10921638
+                    AllowValueListEdits =0
+
+                    LayoutCachedLeft =2040
+                    LayoutCachedTop =5640
+                    LayoutCachedWidth =3780
+                    LayoutCachedHeight =5955
+                    ForeThemeColorIndex =-1
+                    ForeShade =100.0
+                End
+                Begin CommandButton
+                    Enabled = NotDefault
+                    OverlapFlags =215
+                    Left =6420
+                    Top =5640
+                    Width =1140
+                    Height =300
+                    TabIndex =5
+                    ForeColor =15527148
+                    Name ="cmdFltrOrdr"
+                    Caption ="Filter"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Microsoft Sans Serif"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =6420
+                    LayoutCachedTop =5640
+                    LayoutCachedWidth =7560
+                    LayoutCachedHeight =5940
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =0
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =12566463
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =75.0
+                    ThemeFontIndex =-1
+                    HoverColor =0
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =0
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =15527148
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =15527148
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =223
+                    TextAlign =2
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =4320
+                    Top =6060
+                    Width =1980
+                    Height =315
+                    TabIndex =19
+                    BorderColor =10921638
+                    ForeColor =15590879
+                    Name ="Text45"
+                    ControlSource ="=[lstSpplrOrdr].[ListCount] & \" records found\""
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4320
+                    LayoutCachedTop =6060
+                    LayoutCachedWidth =6300
+                    LayoutCachedHeight =6375
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =6300
+                    Top =6060
+                    Width =1560
+                    Height =300
+                    TabIndex =7
+                    ForeColor =15527148
+                    Name ="cmdRstFltr"
+                    Caption ="Clear Filters"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Microsoft Sans Serif"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =6300
+                    LayoutCachedTop =6060
+                    LayoutCachedWidth =7860
+                    LayoutCachedHeight =6360
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =0
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =12566463
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =75.0
+                    ThemeFontIndex =-1
+                    HoverColor =0
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =0
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =15527148
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =15527148
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =1200
+                    Top =5640
+                    Width =840
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label33"
+                    Caption ="Filter by"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1200
+                    LayoutCachedTop =5640
+                    LayoutCachedWidth =2040
+                    LayoutCachedHeight =5955
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin CommandButton
+                    TabStop = NotDefault
+                    OverlapFlags =223
+                    Left =840
+                    Top =5580
+                    Width =306
+                    Height =420
+                    TabIndex =1
+                    ForeColor =15527148
+                    Name ="cmdPrv"
+                    Caption ="<"
+                    StatusBarText ="Previous Record"
+                    FontName ="Microsoft Sans Serif"
+                    ControlTipText ="Previous Record"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =5580
+                    LayoutCachedWidth =1146
+                    LayoutCachedHeight =6000
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =0
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =12566463
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =75.0
+                    ThemeFontIndex =-1
+                    HoverColor =0
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =0
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =15527148
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =15527148
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    TabStop = NotDefault
+                    OverlapFlags =223
+                    Left =7620
+                    Top =5587
+                    Width =306
+                    Height =420
+                    TabIndex =6
+                    ForeColor =15527148
+                    Name ="cmdNxt"
+                    Caption =">"
+                    StatusBarText ="Next Record"
+                    FontName ="Microsoft Sans Serif"
+                    ControlTipText ="Next Record"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =7620
+                    LayoutCachedTop =5587
+                    LayoutCachedWidth =7926
+                    LayoutCachedHeight =6007
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =0
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =12566463
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =75.0
+                    ThemeFontIndex =-1
+                    HoverColor =0
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =0
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =15527148
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =15527148
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin Line
+                    OverlapFlags =87
+                    Left =5760
+                    Top =420
+                    Width =0
+                    Height =420
+                    Name ="Line50"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5760
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =5760
+                    LayoutCachedHeight =840
+                End
+                Begin Label
+                    OverlapFlags =223
+                    TextAlign =1
+                    Left =900
+                    Top =900
+                    Width =1440
+                    Height =300
+                    BackColor =0
+                    BorderColor =8355711
+                    Name ="Label12"
+                    Caption ="Order Number"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =900
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =2340
+                    LayoutCachedHeight =1200
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =223
+                    TextAlign =1
+                    Left =4500
+                    Top =900
+                    Width =1152
+                    Height =300
+                    BackColor =0
+                    BorderColor =8355711
+                    Name ="Label14"
+                    Caption ="Order Date"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =4500
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =5652
+                    LayoutCachedHeight =1200
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =223
+                    TextAlign =1
+                    Left =5640
+                    Top =900
+                    Width =1152
+                    Height =300
+                    BackColor =0
+                    BorderColor =8355711
+                    Name ="Label15"
+                    Caption ="Ship Date"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5640
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =6792
+                    LayoutCachedHeight =1200
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =223
+                    TextAlign =1
+                    Left =6780
+                    Top =900
+                    Width =1137
+                    Height =315
+                    BackColor =0
+                    BorderColor =8355711
+                    Name ="Label16"
+                    Caption ="Expected"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =6780
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =7917
+                    LayoutCachedHeight =1215
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =223
+                    TextAlign =1
+                    Left =2340
+                    Top =900
+                    Width =2160
+                    Height =315
+                    BackColor =0
+                    BorderColor =8355711
+                    Name ="Label42"
+                    Caption ="Supplier"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2340
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =4500
+                    LayoutCachedHeight =1215
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =13200
+                    Top =1020
+                    Width =1560
+                    Height =299
+                    TabIndex =20
+                    BackColor =15527148
+                    BorderColor =10921638
+                    Name ="txtCntctPhn"
+                    ControlSource ="=[cboCntct].Column(2)"
+                    InputMask ="!\\(999\") \"000\\-0000;;_"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =13200
+                    LayoutCachedTop =1020
+                    LayoutCachedWidth =14760
+                    LayoutCachedHeight =1319
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            TextAlign =3
+                            Left =11640
+                            Top =1020
+                            Width =1425
+                            Height =299
+                            BorderColor =8355711
+                            Name ="Label41"
+                            Caption ="Contact Phone"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =11640
+                            LayoutCachedTop =1020
+                            LayoutCachedWidth =13065
+                            LayoutCachedHeight =1319
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    ColumnCount =3
+                    Left =9360
+                    Top =1020
+                    Width =2160
+                    Height =299
+                    TabIndex =9
+                    BorderColor =10921638
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"Phone Number\";\"\";\"10\";\"0\""
+                    Name ="cboCntct"
+                    ControlSource ="OrdrCntctIDfk"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qryOrdrCntnt_slct"
+                    ColumnWidths ="0;2160;0"
+                    GridlineColor =10921638
+                    AllowValueListEdits =0
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =1020
+                    LayoutCachedWidth =11520
+                    LayoutCachedHeight =1319
+                    ForeThemeColorIndex =-1
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            Left =8280
+                            Top =1020
+                            Width =885
+                            Height =299
+                            BorderColor =8355711
+                            Name ="Label37"
+                            Caption ="Contact"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8280
+                            LayoutCachedTop =1020
+                            LayoutCachedWidth =9165
+                            LayoutCachedHeight =1319
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =13200
+                    Top =1440
+                    Width =1140
+                    Height =299
+                    TabIndex =11
+                    BorderColor =10921638
+                    Name ="txtDtPrmsd"
+                    ControlSource ="DtPrmsd"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =13200
+                    LayoutCachedTop =1440
+                    LayoutCachedWidth =14340
+                    LayoutCachedHeight =1739
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            TextAlign =3
+                            Left =11640
+                            Top =1440
+                            Width =1440
+                            Height =299
+                            BorderColor =8355711
+                            Name ="Label29"
+                            Caption ="Date Expected"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =11640
+                            LayoutCachedTop =1440
+                            LayoutCachedWidth =13080
+                            LayoutCachedHeight =1739
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =9360
+                    Top =1860
+                    Width =1080
+                    Height =299
+                    TabIndex =12
+                    BorderColor =10921638
+                    Name ="txtShpDt"
+                    ControlSource ="ShpDt"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =10440
+                    LayoutCachedHeight =2159
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =223
+                            Left =8280
+                            Top =1860
+                            Width =1080
+                            Height =299
+                            BorderColor =8355711
+                            Name ="Label28"
+                            Caption ="Ship Date"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8280
+                            LayoutCachedTop =1860
+                            LayoutCachedWidth =9360
+                            LayoutCachedHeight =2159
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =9360
+                    Top =1440
+                    Width =1080
+                    Height =299
+                    TabIndex =10
+                    BorderColor =10921638
+                    Name ="txtOrdrDt"
+                    ControlSource ="OrdrDt"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =1440
+                    LayoutCachedWidth =10440
+                    LayoutCachedHeight =1739
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =223
+                            Left =8280
+                            Top =1440
+                            Width =1080
+                            Height =299
+                            BorderColor =8355711
+                            Name ="Label27"
+                            Caption ="Order Date"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8280
+                            LayoutCachedTop =1440
+                            LayoutCachedWidth =9360
+                            LayoutCachedHeight =1739
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =9360
+                    Top =600
+                    Width =3540
+                    Height =299
+                    TabIndex =8
+                    BorderColor =10921638
+                    ColumnInfo ="\"\";\"\";\"Supplier\";\"\";\"10\";\"510\""
+                    Name ="cboSpplrIDfk"
+                    ControlSource ="SpplrIDfk"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qryOrdrs_Spplrs_slct"
+                    ColumnWidths ="0"
+                    BaseInfo ="\"qryOrdrs_Spplrs_slct\";\"tblSpplr\";\"\";\"SpplrID\";\"SpplrNm\";\"idxSpplrIDp"
+                        "k\""
+                    GridlineColor =10921638
+                    AllowValueListEdits =0
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =12900
+                    LayoutCachedHeight =899
+                    ForeThemeColorIndex =-1
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            Left =8280
+                            Top =600
+                            Width =960
+                            Height =299
+                            BorderColor =8355711
+                            Name ="Label4"
+                            Caption ="Supplier"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8280
+                            LayoutCachedTop =600
+                            LayoutCachedWidth =9240
+                            LayoutCachedHeight =899
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =13860
+                    Top =600
+                    Width =900
+                    Height =299
+                    TabIndex =21
+                    BackColor =15527148
+                    BorderColor =10921638
+                    Name ="txtSpplrOrdrID"
+                    ControlSource ="SpplrOrdrID"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =13860
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =14760
+                    LayoutCachedHeight =899
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =11640
+                    Top =1860
+                    Width =959
+                    Height =299
+                    TabIndex =13
+                    ForeColor =15527148
+                    Name ="cmdNwOrdr"
+                    Caption ="New "
+                    OnClick ="[Event Procedure]"
+                    FontName ="Microsoft Sans Serif"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =11640
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =12599
+                    LayoutCachedHeight =2159
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =0
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =12566463
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =75.0
+                    ThemeFontIndex =-1
+                    HoverColor =0
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =0
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =15527148
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =15527148
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =13800
+                    Top =1860
+                    Width =959
+                    Height =299
+                    TabIndex =15
+                    ForeColor =15527148
+                    Name ="cmdDlt"
+                    Caption ="Delete"
+                    StatusBarText ="Delete current order"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Microsoft Sans Serif"
+                    ControlTipText ="Delete current order"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =13800
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =14759
+                    LayoutCachedHeight =2159
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =0
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =12566463
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =75.0
+                    ThemeFontIndex =-1
+                    HoverColor =0
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =0
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =15527148
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =15527148
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =12720
+                    Top =1860
+                    Width =959
+                    Height =299
+                    TabIndex =14
+                    ForeColor =15527148
+                    Name ="cmdSvOrdr"
+                    Caption ="Save"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Microsoft Sans Serif"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =12720
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =13679
+                    LayoutCachedHeight =2159
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =0
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =12566463
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =75.0
+                    ThemeFontIndex =-1
+                    HoverColor =0
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =0
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =15527148
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =15527148
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =13020
+                    Top =600
+                    Width =765
+                    Height =299
+                    BorderColor =8355711
+                    Name ="Label13"
+                    Caption ="Order #"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =13020
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =13785
+                    LayoutCachedHeight =899
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =87
+                    TextAlign =1
+                    Left =840
+                    Top =120
+                    Width =1710
+                    Height =300
+                    FontSize =14
+                    BorderColor =8355711
+                    Name ="Label17"
+                    Caption ="Orders"
+                    FontName ="Franklin Gothic Demi"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =2550
+                    LayoutCachedHeight =420
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    TabStop = NotDefault
+                    RowSourceTypeInt =1
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =6360
+                    Top =480
+                    Height =300
+                    TabIndex =23
+                    BorderColor =10921638
+                    Name ="cboSrtOrdr"
+                    RowSourceType ="Value List"
+                    RowSource ="1;Order Date;2;Ship Date;3;Date Expected;4;Order Number"
+                    ColumnWidths ="0"
+                    DefaultValue ="1"
+                    GridlineColor =10921638
+                    AllowValueListEdits =0
+
+                    LayoutCachedLeft =6360
+                    LayoutCachedTop =480
+                    LayoutCachedWidth =7800
+                    LayoutCachedHeight =780
+                    ForeThemeColorIndex =-1
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            TextAlign =3
+                            Left =5820
+                            Top =480
+                            Width =525
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =14211288
+                            Name ="Label2"
+                            Caption ="Sort "
+                            GridlineColor =10921638
+                            LayoutCachedLeft =5820
+                            LayoutCachedTop =480
+                            LayoutCachedWidth =6345
+                            LayoutCachedHeight =795
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =14880
+                    Top =600
+                    Width =600
+                    Height =299
+                    TabIndex =22
+                    BackColor =62207
+                    BorderColor =10921638
+                    Name ="txtSpplrOrdrID_Unbnd"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =14880
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =15480
+                    LayoutCachedHeight =899
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin FormFooter
+            Height =315
+            BackColor =0
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =12660
+                    Width =3180
+                    Height =315
+                    BorderColor =8355711
+                    ForeColor =15527148
+                    Name ="Label167"
+                    Caption ="<COMPANY NAME HERE>"
+                    FontName ="Microsoft Sans Serif"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =12660
+                    LayoutCachedWidth =15840
+                    LayoutCachedHeight =315
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =120
+                    Width =7860
+                    Height =315
+                    BorderColor =8355711
+                    ForeColor =16777215
+                    Name ="Label168"
+                    Caption ="<DATABASE NAME> Database powered by Advanced Database Solutions"
+                    FontName ="Microsoft Sans Serif"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =120
+                    LayoutCachedWidth =7980
+                    LayoutCachedHeight =315
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+            End
+        End
+    End
+End

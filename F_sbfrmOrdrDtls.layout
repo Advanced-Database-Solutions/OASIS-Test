@@ -14,11 +14,14 @@ Begin Form
     Width =6240
     DatasheetFontHeight =11
     ItemSuffix =3
-    Left =10440
-    Top =5820
-    Right =16650
-    Bottom =9330
+    Left =10545
+    Top =6615
+    Right =16755
+    Bottom =10125
     DatasheetGridlinesColor =14806254
+    Filter =" "
+    RecordSource ="SELECT tblSpplrOrdrDtls.* FROM tblSpplrOrdrDtls WHERE (((tblSpplrOrdrDtls.SpplrO"
+        "rdrIDfk)=[forms]![frmOrdrs]![txtSpplrOrdrID])); "
     DatasheetFontName ="Calibri"
     AllowDatasheetView =0
     FilterOnLoad =0
@@ -326,6 +329,7 @@ Begin Form
                     Name ="cmdDlt"
                     Caption ="Delete"
                     StatusBarText ="Delete this item"
+                    OnClick ="[Event Procedure]"
                     FontName ="Microsoft Sans Serif"
                     ControlTipText ="Delete this item"
                     GridlineColor =10921638
@@ -407,9 +411,11 @@ Begin Form
                     Width =1920
                     Height =315
                     BorderColor =10921638
-                    Name ="txtItmNm"
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    Name ="cboItmNm"
                     ControlSource ="ItmNm"
                     RowSourceType ="Table/Query"
+                    RowSource ="qryOrdrDtls_ItmNm_slct"
                     StatusBarText ="Item Name"
                     GridlineColor =10921638
 
