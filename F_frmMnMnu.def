@@ -17,7 +17,7 @@ Begin Form
     ItemSuffix =2
     Left =9855
     Top =2895
-    Right =15735
+    Right =16935
     Bottom =8160
     DatasheetGridlinesColor =14806254
     Caption ="Main Menu"
@@ -156,9 +156,8 @@ Begin Form
                     ForeTint =100.0
                     Shape =0
                     Gradient =0
-                    BackColor =2366701
-                    BackThemeColorIndex =-1
-                    BackTint =100.0
+                    BackColor =13083315
+                    BackThemeColorIndex =7
                     BorderColor =12566463
                     BorderThemeColorIndex =1
                     BorderTint =100.0
