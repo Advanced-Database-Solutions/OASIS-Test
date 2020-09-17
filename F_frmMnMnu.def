@@ -15,10 +15,10 @@ Begin Form
     Width =5880
     DatasheetFontHeight =11
     ItemSuffix =2
-    Left =5400
-    Top =1965
-    Right =12720
-    Bottom =7230
+    Left =9855
+    Top =2895
+    Right =15735
+    Bottom =8160
     DatasheetGridlinesColor =14806254
     Caption ="Main Menu"
     DatasheetFontName ="Calibri"
@@ -126,6 +126,7 @@ Begin Form
                     Top =120
                     Width =5640
                     Height =5040
+                    BackColor =9737945
                     BorderColor =10921638
                     Name ="Box1"
                     GridlineColor =10921638
@@ -133,7 +134,8 @@ Begin Form
                     LayoutCachedTop =120
                     LayoutCachedWidth =5775
                     LayoutCachedHeight =5160
-                    BackThemeColorIndex =-1
+                    BackThemeColorIndex =5
+                    BackTint =60.0
                 End
                 Begin CommandButton
                     OverlapFlags =215
