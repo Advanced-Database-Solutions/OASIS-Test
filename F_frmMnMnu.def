@@ -15,10 +15,10 @@ Begin Form
     Width =5880
     DatasheetFontHeight =11
     ItemSuffix =2
-    Left =9855
-    Top =2895
-    Right =15735
-    Bottom =8160
+    Left =7860
+    Top =3525
+    Right =14085
+    Bottom =9495
     DatasheetGridlinesColor =14806254
     Caption ="Main Menu"
     DatasheetFontName ="Calibri"
@@ -157,7 +157,7 @@ Begin Form
                     ForeTint =100.0
                     Shape =0
                     Gradient =0
-                    BackColor =0
+                    BackColor =2366701
                     BackThemeColorIndex =-1
                     BackTint =100.0
                     BorderColor =12566463
@@ -203,7 +203,7 @@ Begin Form
                     ForeTint =100.0
                     Shape =0
                     Gradient =0
-                    BackColor =0
+                    BackColor =2366701
                     BackThemeColorIndex =-1
                     BackTint =100.0
                     BorderColor =12566463
@@ -248,7 +248,7 @@ Begin Form
                     ForeTint =100.0
                     Shape =0
                     Gradient =0
-                    BackColor =0
+                    BackColor =2366701
                     BackThemeColorIndex =-1
                     BackTint =100.0
                     BorderColor =12566463
